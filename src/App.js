@@ -18,7 +18,8 @@ function App() {
 
   return (
     <div>
-     <Nav         categories={categories}
+     <Nav 
+        categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory} >  </Nav>
      
